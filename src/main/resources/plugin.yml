@@ -1,0 +1,15 @@
+name: Brush
+version: '${project.version}'
+main: zektha.brush.Brush
+api-version: 1.15
+depend: [WorldGuard]
+commands:
+  givebrush:
+    usage: /givebrush
+    permission: brush.givebrush
+  getbrush:
+    usage: /getbrush
+    permission: brush.getbrush
+  delbrush:
+    usage: /delbrush
+    permission: brush.delbrush
